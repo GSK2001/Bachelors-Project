@@ -45,6 +45,7 @@ from petrofit.photometry import make_radius_list
 from petrofit.photometry import source_photometry
 from petrofit.photometry import order_cat
 from petrofit.utils import plot_target
+from petrofit.photometry import flux_to_abmag
 from petrofit.segmentation import get_source_position, get_source_elong, get_source_theta
 from acstools import acszpt
 from petrofit.petrosian import Petrosian, PetrosianCorrection
